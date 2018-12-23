@@ -1,0 +1,7 @@
+@cover=b_book_ll
+@pages=b_book_ll
+@author=The Little Green Man
+@title=Nobody Important
+\c000Go to the house of the old astronomer. \n \n
+\c000Enter the password "We Come In Peace" into the door. \n \n
+\c000Tell the old man to take the previous message to the middle of the Ring at night with the full moon out to make his dreams come true. \n \n

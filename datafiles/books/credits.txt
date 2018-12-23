@@ -1,0 +1,115 @@
+@cover=b_book_ll
+@pages=b_book_ll
+@author=Dragonite
+@title=The Aviary: Credits
+\c900HEY DRAGONITE THIS IS REALLY UNFINISHED, GET YOUR BUTT IN GEAR AND LET'S DO THIS \n \n
+\c009GAME DESIGN \n \n
+\c000Space Squid \n \n
+\c009GAME DIRECTOR \n \n
+\c000Dragonite \n \n
+\c009SYSTEMS PROGRAMMERS \n \n
+\c000Dragonite \n \n
+\c009GRAPHICS PROGRAMMERS \n \n
+\c000Dragonite \n \n
+\c009GAMEPLAY PROGRAMMERS \n \n
+\c000Dragonite \n \n
+\c009AI PROGRAMMERS \n \n
+\c000We do not speak of this game's AI. \b
+\c009INTERFACE PROGRAMMERS \n \n
+\c000Dragonite \n \n
+\c009CONCEPT ART \n \n
+\c000There was none. \n \n
+\c009SPRITE & TEXTURE ART \n \n
+\c000<some name> \n
+\c000<some other name> \n \n
+\c009SOUND & AUDIO \n \n
+\c000<some name> \n
+\c000<some other name> \n \n
+\c009ANIMATOR \n \n
+\c000Um. \n \n
+\c009WRITER \n \n
+\c000<some name> \n
+\c000<some other name> \b
+\c009QUEST DESIGN & WRITING \n \n
+\c000<some name> \n
+\c000<some other name> \n \n
+\c009LEVEL DESIGN \n \n
+\c000Dragonite \n
+\c000Alexandre Munin \n
+\c000Probably Jayrodd? \n \n
+\c009CONSULTATION \n \n
+\c000Jayrodd, probably \n \n
+\c009VIRGO GAME ENGINE \n \n
+\c000Game Maker: Studio (I'm not kidding)(sigh) \n \n
+\c009IDEAS \n \n
+\c000No, there is no "idea guy," get over yourselves \b
+\c009OTHER SOFTWARE \n \n
+\c000Model Creator for Game Maker \n
+\c000Blender \n
+\c000SFXR, probably \n
+\c000Audacity \n
+\c009TECHNICAL RESOURCES \n \n
+\c000repl.it \n
+\c000diffcheck \n
+\c000/r/worldbuilding \n
+\c000/r/gamemaker \n
+\c000Python \n \n
+\c009DEBUGGING & TESTING \n \n
+\c000Dragonite \n
+\c000Literally everybody who has played this game \b
+\c009SHARING & ADVICE \n \n
+\c000YouTube \n
+\c000Facebook \n
+\c000Super Skarmory/Pokecheats \n
+\c000Victory Road \n
+\c000Relic Castle \n
+\c000Skype \n
+\c000Discord \n \n
+\c009YOYO GAMES, FOR GAME MAKER \n \n
+\c009REALLY GOOD CODE EXTENSIONS \n \n
+\c000GMBinFile \n
+\c000Regular Expressions \n
+\c000Venomous 3D Collisions \n \n
+\c009UNNECESSARILY LONG CREDITS \n \n
+\c000Dragonite \b
+\c009GMC MEMBERS WHO POSTED REALLY USEFUL THREADS \n \n
+\c000Yourself \n
+\c000icuurd12b42 \n \n
+\c009PEOPLE WHO COMPOSED MUSIC \n \n
+\c050https://opengameart.org \n
+\c000Matthew Pablo; http://www.matthewpablo.com \n
+\c000The Cynic Project; cynicmusic.com, pixelsphere.org \n
+\c000Alex McCulloch \n
+\c000Garritan Personal Orchestra \n \n
+\c009MISC. GRAPHICS \n \n
+\c050https://opengameart.org \n
+\c000https://opengameart.org/users/armisius \n \n
+\c009TEACHERS OF MATH AND SCIENCE AND STUFF \n \n
+\c000Regina Benfield \n
+\c000Eileen McGovern \n
+\c000Maureen Hunt \n
+\c000Melissa McDonald \n
+\c000Jacqueline Porter \n
+\c000Mary Anne Szymonowicz \n
+\c000Scott Foglyano \n
+\c000Kathleen McLaughlin \n
+\c000Elyse Gibb \n
+\c000Bhavana Rathee \n
+\c000James Grimm \n
+\c000Brinder Soin \n
+\c000Kenny Martinez \n
+\c000Karen van Meenen \b
+\c009SPECIAL THANKS \n \n
+\c000Alexandre Munin \n
+\c000Garth Keipper \n
+\c000Eyan George \n
+\c000Emiliano Birou \n
+\c000Zachary Weber \n
+\c000Scott Cheney \n
+\c000Anthony Moreno \n
+\c000Manuel Aragon \n \n
+\c000Martin Crownover \n \n
+\c050And you! \n \n
+\c000The player! \n \n
+\c000Especially you! \n \n
+\c000Thanks for playing!

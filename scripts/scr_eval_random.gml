@@ -1,0 +1,1 @@
+return random(argument0);

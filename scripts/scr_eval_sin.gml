@@ -1,0 +1,1 @@
+return dsin(argument0);

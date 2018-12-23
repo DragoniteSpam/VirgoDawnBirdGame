@@ -1,0 +1,10 @@
+invert_y=DEFAULT_INVERT_Y;
+invert_x=DEFAULT_INVERT_X;
+sensitivity=DEFAULT_SENSITIVITY;
+auto_run=DEFAULT_AUTO_RUN;
+measurements=DEFAULT_MEASUREMENT_READING;
+time_scale=DEFAULT_TIME_SCALE;
+text_speed=DEFAULT_TEXT_SPEED;
+show_floaty_markers=DEFAULT_FLOATY_MARKERS;
+difficulty=DEFAULT_DIFFICULTY;
+Player.handedness=DEFAULT_HANDEDNESS;

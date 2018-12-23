@@ -1,0 +1,90 @@
+enum ETypes {
+    selectable,
+    entity,
+    door,
+    fountain,
+    ufo,
+    sign_generic,
+    sign_route,
+    sign_connection,
+    flagpole,
+    clock_tower,
+    windmill_electric,
+    windmill_dutch,
+    door_password,
+    fire,
+    fire_torch,
+    death,
+    npc,
+    animal,
+    bird_hawk,
+    teleport,
+    card,
+    leaf_pile,
+    bird_goose,
+    event,
+    lamp,
+    save,
+    dig,
+    chest,
+    waypoint,
+    bulb,
+    event_collectable,
+    tombstone,
+    radius,
+    clock,
+    invisible,
+    sproing,
+    fire_harmful,
+    cauldron_k,
+    pressureplate,
+    partemitter,
+    candle,
+    npc_respawn,
+    heart,
+    mobile_translate,
+    mobile_rotate,
+    npc_walls,
+    final
+}
+
+globalvar all_entity_types;
+all_entity_types=array_add(ETypes.final, Selectable);
+
+all_entity_types[ETypes.selectable]=Selectable;
+all_entity_types[ETypes.entity]=Entity;
+all_entity_types[ETypes.door]=EntityDoor;
+all_entity_types[ETypes.flagpole]=EntityFlagpole;
+all_entity_types[ETypes.ufo]=EntityUFO;
+all_entity_types[ETypes.sign_generic]=EntitySign;
+all_entity_types[ETypes.sign_route]=EntitySignRoute;
+all_entity_types[ETypes.sign_connection]=EntitySignConnection;
+all_entity_types[ETypes.fountain]=EntityFountain;
+all_entity_types[ETypes.npc]=EntityNPC;
+all_entity_types[ETypes.fire]=EntityFire;
+all_entity_types[ETypes.fire_torch]=EntityFireTorch;
+all_entity_types[ETypes.chest]=EntityTreasureChest;
+all_entity_types[ETypes.lamp]=EntityLamp;
+all_entity_types[ETypes.door_password]=EntityDoorPassword;
+all_entity_types[ETypes.waypoint]=WaypointNPC;
+all_entity_types[ETypes.bird_hawk]=EntityBirdHawk;
+all_entity_types[ETypes.bird_goose]=EntityBirdGoose;
+all_entity_types[ETypes.event]=Event;
+all_entity_types[ETypes.event_collectable]=EventCollectable;
+all_entity_types[ETypes.tombstone]=EntityTombstone;
+all_entity_types[ETypes.bulb]=EntityFlowerBulb;
+all_entity_types[ETypes.radius]=EventRadius;
+all_entity_types[ETypes.clock]=EntityClock;
+all_entity_types[ETypes.teleport]=EntityTeleport;
+all_entity_types[ETypes.invisible]=EntityInvisibleTalky;
+all_entity_types[ETypes.sproing]=EntitySproing;
+all_entity_types[ETypes.fire_harmful]=EntityFireHarmful;
+all_entity_types[ETypes.cauldron_k]=EntityCauldronK;
+all_entity_types[ETypes.pressureplate]=EntityPressurePlate;
+all_entity_types[ETypes.partemitter]=EntityWithPartEmitter;
+all_entity_types[ETypes.candle]=EntityFireCandle;
+all_entity_types[ETypes.npc_respawn]=EntityNPCRespawn;
+all_entity_types[ETypes.heart]=EventRestoreHP;
+all_entity_types[ETypes.mobile_translate]=EntityMobileTranslate;
+all_entity_types[ETypes.mobile_rotate]=EntityMobileRotate;
+all_entity_types[ETypes.npc_walls]=EntityNPCWalls;

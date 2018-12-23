@@ -1,0 +1,139 @@
+@cover=b_book_a
+@pages=b_book_a
+@author=Dragonite
+@title=Help
+
+Basics and stuff
+
+Hi! This is Pokémon Shadow Unbound, a fan-made Pokémon game that isn't a ROM hack, RPG Maker creation and (theoretically) is semi-playable! Here's a run-down of stuff I deemed important for you to know.
+
+Controls
+
+Action      Mouse/Keyboard   Xbox 360
+
+Left        A                LS Left
+Right       D                LS Right
+Up          W                LS Up
+Down        S                LS Down
+Look Left   Mouse Left*      RS Left*
+Look Right  Mouse Right*     RS Right*
+Look Up     Mouse Up*        RS Up*
+Look Down   Mouse Down*      RS Down*
+Menu Left   Left Arrow       D-Pad Left
+Menu Right  Right Arrow      D-Pad Right
+Menu Up     Up Arrow         D-Pad Up
+Menu Down   Down Arrow       D-Pad Down
+Interact    E/Left Mouse     A
+Back        F/Right Mouse    B
+(X)         R                X
+Jump        Space            Y
+Pause       Escape           Start
+Return      Backspace        Select
+(L)
+(R)
+(L2)
+(R2)
+(LS)
+(RS)
+
+* May be inverted via an in-game setting.
+
+Gampelay
+
+You walk around, you talk to people, you battle with Pokémon, you go on adventures.
+
+2:32 AM 4/23/2016 Reeeeeeeeeally helpful. Thanks. Joe
+2:33 AM 4/23/2016 That's LITERALLY the gameplay of Pokémon. Dragonite
+2:35 AM 4/23/2016 You could at least go into a little more detail about it. Joe
+2:36 AM 4/23/2016 You do it, then. Dragonite
+2:36 AM 4/23/2016 Can't. Busy mucking through the quagmire of your inventory code. Joe
+2:38 AM 4/23/2016 I can plagiarize the user manual for HeartGold and SoulSilver, if it makes you feel any better. Dragonite
+2:38 AM 4/23/2016 No, I'd prefer you keep your useless one-liners. Joe
+
+What Are Pokémon?
+
+[redacted]
+
+2:39 AM 4/23/2016 Dude, you're not plagiarizing the HG/SS manual. Joe
+2:40 AM 4/23/2016 Fine. Where's Fowler? Isn't he supposed to be doing the writing? Dragonite
+2:41 AM 4/23/2016 Busy rewriting the main quest of the game, since Chase went and ate all of my notebooks yesterday. Fowler
+dont blame me, your the one who spiled sauce on them last nigh
+2:43 AM 4/23/2016 Sign and date your messages, Chase. Use F5 to paste a timestamp. Dragonite
+F5F5F5F5F5F5its not working. chase
+2:45 PM 6/3/2016 Never mind. Dragonite
+
+Getting Started
+
+At the title screen, you'll be prompted to start a new game. If you already have a save file, you'll have the option to continue that instead.
+
+2:47 AM 4/23/2016 That's like fundamental video game knowledge that I'm pretty sure everyone who thinks about playing this game will already have. Joe
+2:48 AM 4/23/2016 I thought you were still busy fixing the inventory code. Was it not abominable enough for you?  Dragonite
+2:50 AM 4/23/2016 Said no game dev, ever. Joe
+2:50 AM 4/23/2016 You need to spend more time reading Reddit. Dragonite
+2:50 AM 4/23/2016 And now you know why we never get anything done around here, friends. Joe
+
+Starting Your Adventure
+
+After you choose your character and spell out your name and all that stuff,
+
+2:51 AM 4/23/2016 Could you be any less professional? Joe
+2:52 AM 4/23/2016 That sounded like a challenge. Dragonite
+2:53 AM 4/23/2016 No. Joe
+2:51 AM 4/23/2016 Want me to start dropping trailing punctuation, too? Dragonite
+2:52 AM 4/23/2016 No. Joe
+2:53 AM 4/23/2016 I could start decapitalizing capital letters, too. Dragonite
+2:53 AM 4/23/2016 Don't we have anyone else who can write this stupid help file? Joe
+2:53 AM 4/23/2016 Fowler's busy, Chase can barely spell his name and Prima is off at the gym doing important things, so no. Dragonite
+2:54 AM 4/23/2016 We're screwed. Joe
+
+The Game Interface
+
+2:54 AM 4/23/2016 But you didn't finish the last section . . . Joe
+2:55 AM 4/23/2016 Got bored. Dragonite
+
+You'll see a few things overlaid on the screen once you start your adventure.
+
+At the top of the screen is a fancy little compass, showing the direction you're facing and any interesting locations that may be nearby.
+
+4:20 PM 6/3/2016 All right, that's it. Give me the keyboard. Joe
+4:20 PM 6/3/2016 I thought you had an inventory to fix? Dragonite
+4:21 PM 6/3/2016 Don't make me cast you to a piano or something. Joe
+
+The Pause Menu
+
+When you pause the game, you'll see a few different subcategories.
+
+Pokémon
+
+See information about your party of Pokémon, switch your party order around, or manage their hold items.
+
+4:19 PM 6/3/2016 See, nice and professional. How hard was that? Joe
+4:19 PM 6/3/2016 Who's plagiarizing the HGSS manual now? Dragonite
+
+Bag
+
+You can view information about items you've collected in here. The bag is organized into several different categories, from which you can select individual items and decide what to do with them.
+
+4:29 PM 6/3/2016 Could you write a more boring explanation? Dragonite
+4:29 PM 6/3/2016 Go back to wrecking the save game structure or something, why don't you? Joe
+
+Settings
+
+In here are a few settings you can change to affect the way the game looks and plays, including details such as text speed and battle rules. In particular, if you're having problems with the game's performance you may want to try turning down some of the graphical settings.
+
+Save
+
+You can
+
+4:34 PM 6/3/2016 All right, that's it. I'm taking the keyboard back. Dragonite
+4:34 PM 6/3/2016 HEY! Joe
+
+Back to Game
+
+4:41 PM 6/3/2016 How do I even describe this? Dragonite
+4:41 PM 6/3/2016 All right, give it back. Joe
+
+Quit
+
+4:41 PM 6/3/2016 For crying out loud, why did you feel the need to describe every single option in the main menu? Joe
+4:42 PM 6/3/2016 Since you told me not to plagiarize the HGSS menu. Dragonite

@@ -1,0 +1,43 @@
+/// reflexive methods_world(map);
+
+argument0[? "addAchievement"]=CutsceneScripts.addAchievement;
+argument0[? "createPushNotification"]=CutsceneScripts.createPushNotification;
+argument0[? "hidePlayerMoney"]=CutsceneScripts.hidePlayerMoney;
+argument0[? "push"]=CutsceneScripts.push;
+argument0[? "questBegin"]=CutsceneScripts.questBegin;
+argument0[? "restart"]=CutsceneScripts.restart;
+argument0[? "showCooking"]=CutsceneScripts.showCooking;
+argument0[? "showHUD"]=CutsceneScripts.showHUD;
+argument0[? "showMap"]=CutsceneScripts.showMap;
+argument0[? "showPlayerMoney"]=CutsceneScripts.showPlayerMoney;
+argument0[? "toTitle"]=CutsceneScripts.toTitle;
+argument0[? "validateQuests"]=CutsceneScripts.validateQuests;
+argument0[? "wait"]=CutsceneScripts.wait;
+argument0[? "weather"]=CutsceneScripts.weather;
+argument0[? "flipHorizontal"]=CutsceneScripts.sysFlipHorizontal;
+argument0[? "flipVertical"]=CutsceneScripts.sysFlipVertical;
+argument0[? "save"]=CutsceneScripts.sysSave;
+argument0[? "load"]=CutsceneScripts.sysLoad;
+argument0[? "quoteRandomize"]=CutsceneScripts.sysQuoteRandomize;
+argument0[? "quoteShow"]=CutsceneScripts.sysQuoteShow;
+argument0[? "getRandomPercent"]=CutsceneScripts.getRandomPercent;
+argument0[? "getCurrentSeason"]=CutsceneScripts.getCurrentSeason;
+argument0[? "getHasAchievement"]=CutsceneScripts.getHasAchievement;
+argument0[? "getHasCompletedQuest"]=CutsceneScripts.getHasCompletedQuest;
+argument0[? "getHasStartedQuest"]=CutsceneScripts.getHasStartedQuest;
+argument0[? "getIsAfternoon"]=CutsceneScripts.getIsAfternoon;
+argument0[? "getIsEvening"]=CutsceneScripts.getIsEvening;
+argument0[? "getIsMorning"]=CutsceneScripts.getIsMorning;
+argument0[? "getIsNight"]=CutsceneScripts.getIsNight;
+argument0[? "getQuestCompleted"]=CutsceneScripts.getQuestCompleted;
+argument0[? "getQuestStage"]=CutsceneScripts.getQuestStage;
+argument0[? "getQuestText"]=CutsceneScripts.getQuestText;
+argument0[? "if"]=CutsceneScripts.ifbranch;
+argument0[? "else"]=CutsceneScripts.elsebranch;
+argument0[? "endif"]=CutsceneScripts.endif;
+argument0[? "centerCursor"]=CutsceneScripts.sysCenterCursor;
+argument0[? "setGameModePlay"]=CutsceneScripts.sysSetGameModePlay;
+argument0[? "getVar"]=CutsceneScripts.getVar;
+
+return argument0;
+

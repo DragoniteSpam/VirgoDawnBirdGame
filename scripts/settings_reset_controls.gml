@@ -1,0 +1,36 @@
+with (Controller){
+    gp_bind_a=DEFAULT_GP_A;
+    gp_bind_b=DEFAULT_GP_B;
+    gp_bind_x=DEFAULT_GP_X;
+    gp_bind_y=DEFAULT_GP_Y;
+    gp_bind_start=DEFAULT_GP_START;
+    gp_bind_select=DEFAULT_GP_SELECT;
+    gp_bind_l=DEFAULT_GP_L;
+    gp_bind_r=DEFAULT_GP_R;
+    gp_bind_l2=DEFAULT_GP_L2;
+    gp_bind_r2=DEFAULT_GP_R2;
+    gp_bind_ls=DEFAULT_GP_LS;
+    gp_bind_rs=DEFAULT_GP_RS;
+    gp_bind_padu=DEFAULT_GP_PADU;
+    gp_bind_padd=DEFAULT_GP_PADD;
+    gp_bind_padl=DEFAULT_GP_PADL;
+    gp_bind_padr=DEFAULT_GP_PADR;
+    
+    mk_bind_a_a=DEFAULT_MK_A_A;
+    mk_bind_a_b=DEFAULT_MK_A_B;
+    mk_bind_b=DEFAULT_MK_B;
+    mk_bind_x=DEFAULT_MK_X;
+    mk_bind_y=DEFAULT_MK_Y;
+    mk_bind_start=DEFAULT_MK_START;
+    mk_bind_select=DEFAULT_MK_SELECT;
+    mk_bind_l=DEFAULT_MK_L;
+    mk_bind_r=DEFAULT_MK_R;
+    mk_bind_l2=DEFAULT_MK_L2;
+    mk_bind_r2=DEFAULT_MK_R2;
+    mk_bind_ls=DEFAULT_MK_LS;
+    mk_bind_rs=DEFAULT_MK_RS;
+    mk_bind_padu=DEFAULT_MK_PADU;
+    mk_bind_padd=DEFAULT_MK_PADD;
+    mk_bind_padl=DEFAULT_MK_PADL;
+    mk_bind_padr=DEFAULT_MK_PADR;
+}

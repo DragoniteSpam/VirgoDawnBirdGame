@@ -1,0 +1,1 @@
+return dtan(argument0);

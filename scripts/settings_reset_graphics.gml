@@ -1,0 +1,11 @@
+fov=DEFAULT_FOV;
+render_distance=DEFAULT_RENDER_DISTANCE;
+render_distance_lights=DEFAULT_RENDER_DISTANCE_LIGHTS;
+global_particle_density=DEFAULT_RENDER_DISTANCE;
+render_atmosphere=DEFAULT_RENDER_ATMOSPHERE;
+crosshair_index=DEFAULT_CROSSHAIR_INDEX;
+window_set_fullscreen(DEFAULT_FULLSCREEN);
+
+graphics_final_color=DEFAULT_UI_COLOR;
+graphics_text_color=DEFAULT_UI_TEXT;
+graphics_white_color=DEFAULT_UI_WHITE;

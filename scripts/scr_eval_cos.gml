@@ -1,0 +1,1 @@
+return dcos(argument0);

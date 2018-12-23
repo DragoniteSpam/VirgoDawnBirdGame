@@ -1,0 +1,5 @@
+@cover=b_book_ll
+@pages=b_book_ll
+@author=The Little Green Man
+@title=Important Notice
+\c000Enter the middle of the Ring at night with the moon out and hold this piece of paper to make something of interest happen.

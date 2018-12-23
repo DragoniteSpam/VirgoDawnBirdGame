@@ -1,0 +1,8 @@
+@cover=b_book_ll
+@pages=b_book_ll
+@author=Dragonite
+@title=To Do
+
+Things that we really need to do
+
+ - finish the 
