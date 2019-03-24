@@ -336,7 +336,7 @@ switch (pause_major_n){
         draw_text(xx, 64, "Controls: Restore Defaults");
         draw_text_ext(xx, 104, string_copy("Change the control settings to the state they were in when you started the game for the first time.", 1, pause_t), -1, W/2-160);
         // this has to be checked directly
-        if (keyboard_check_direct(Controller.mk_bind_a_a)||keyboard_check_direct(Controller.mk_bind_a_b)||gamepad_button_check(0, Controller.gp_bind_a)){
+        if (keyboard_check(Controller.mk_bind_a_a)||keyboard_check(Controller.mk_bind_a_b)||gamepad_button_check(0, Controller.gp_bind_a)){
             settings_reset_controls();
             pause_t=0;
         } else if (get_release_b()){

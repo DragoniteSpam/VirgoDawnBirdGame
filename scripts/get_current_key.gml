@@ -37,12 +37,12 @@ switch (keyboard_key){
     case ord('M'):
     case vk_escape:
     case vk_tab:
-    case vk_lshift:
+/*    case vk_lshift:
     case vk_rshift:
     case vk_lcontrol:
     case vk_rcontrol:
     case vk_lalt:
-    case vk_ralt:
+    case vk_ralt:*/
     case vk_space:
     case vk_backspace:
     case vk_enter:

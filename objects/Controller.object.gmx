@@ -222,12 +222,12 @@ for (var i=ord('A'); i&lt;=ord('Z'); i++){
 
 control_keyboard_text[vk_escape]=get_text(Text.keyEscape);
 control_keyboard_text[vk_tab]=get_text(Text.keyTab);
-control_keyboard_text[vk_lcontrol]=get_text(Text.keyLControl);
-control_keyboard_text[vk_lshift]=get_text(Text.keyLShift);
-control_keyboard_text[vk_lalt]=get_text(Text.keyLAlt);
-control_keyboard_text[vk_rcontrol]=get_text(Text.keyRControl);
-control_keyboard_text[vk_rshift]=get_text(Text.keyRShift);
-control_keyboard_text[vk_ralt]=get_text(Text.keyRAlt);
+control_keyboard_text[vk_lcontrol]="not available"/*get_text(Text.keyLControl)*/;
+control_keyboard_text[vk_lshift]="not available"/*get_text(Text.keyLShift)*/;
+control_keyboard_text[vk_lalt]="not available"/*et_text(Text.keyLAlt)*/;
+control_keyboard_text[vk_rcontrol]="not available"/*get_text(Text.keyRControl)*/;
+control_keyboard_text[vk_rshift]="not available"/*get_text(Text.keyRShift)*/;
+control_keyboard_text[vk_ralt]="not available"/*get_text(Text.keyRAlt)*/;
 control_keyboard_text[vk_space]=get_text(Text.keySpace);
 control_keyboard_text[vk_enter]=get_text(Text.keyEnter);
 control_keyboard_text[vk_backspace]=get_text(Text.keyBackspace);
@@ -402,8 +402,8 @@ if (game_has_focus){
         pright=false;
     }
     // Combine with keyboard input
-    ls_x=ls_x-keyboard_check_direct(ord('A'))+keyboard_check_direct(ord('D'));
-    ls_y=ls_y-keyboard_check_direct(ord('W'))+keyboard_check_direct(ord('S'));
+    ls_x=ls_x-keyboard_check(ord('A'))+keyboard_check(ord('D'));
+    ls_y=ls_y-keyboard_check(ord('W'))+keyboard_check(ord('S'));
     rs_x=rs_x+clamp((MOUSE_X-W/2)/16, -1, 1);
     rs_y=rs_y+clamp((MOUSE_Y-H/2)/16, -1, 1);
     
@@ -415,25 +415,25 @@ if (game_has_focus){
         if (mk_bind_a_a==vk_lmouse||mk_bind_a_b==vk_lmouse)
             a=mouse_check_button(mb_left)||a;
     } else {
-        a=keyboard_check_direct(mk_bind_a_a)||keyboard_check_direct(mk_bind_a_b)||a;
+        a=keyboard_check(mk_bind_a_a)||keyboard_check(mk_bind_a_b)||a;
     }
     if (COMPILED){
         if (mk_bind_b==vk_rmouse)
             b=mouse_check_button(mb_right)||b;
     } else {
-        b=keyboard_check_direct(mk_bind_b)||b;
+        b=keyboard_check(mk_bind_b)||b;
     }
-    x=keyboard_check_direct(mk_bind_x)||x;
-    y=keyboard_check_direct(mk_bind_y)||y;
+    x=keyboard_check(mk_bind_x)||x;
+    y=keyboard_check(mk_bind_y)||y;
     
-    start=keyboard_check_direct(mk_bind_start)||start;
-    select=keyboard_check_direct(mk_bind_select)||select;
-    l=keyboard_check_direct(mk_bind_l)||l;
-    r=keyboard_check_direct(mk_bind_r)||r;
-    l2=keyboard_check_direct(mk_bind_l2)||l2;
-    r2=keyboard_check_direct(mk_bind_r2)||r2;
-    ls=keyboard_check_direct(mk_bind_ls)||ls;
-    rs=keyboard_check_direct(mk_bind_rs)||rs;
+    start=keyboard_check(mk_bind_start)||start;
+    select=keyboard_check(mk_bind_select)||select;
+    l=keyboard_check(mk_bind_l)||l;
+    r=keyboard_check(mk_bind_r)||r;
+    l2=keyboard_check(mk_bind_l2)||l2;
+    r2=keyboard_check(mk_bind_r2)||r2;
+    ls=keyboard_check(mk_bind_ls)||ls;
+    rs=keyboard_check(mk_bind_rs)||rs;
     
     l3=mouse_wheel_up();
     r3=mouse_wheel_down();
@@ -463,10 +463,10 @@ if (game_has_focus){
     rleft=MatchCardinalDirection(rs_angle, rs_magnitude, Directions.west);
     rright=MatchCardinalDirection(rs_angle, rs_magnitude, Directions.east);
     
-    pup=pup||keyboard_check_direct(mk_bind_padu);
-    pdown=pdown||keyboard_check_direct(mk_bind_padd);
-    pleft=pleft||keyboard_check_direct(mk_bind_padl);
-    pright=pright||keyboard_check_direct(mk_bind_padr);
+    pup=pup||keyboard_check(mk_bind_padu);
+    pdown=pdown||keyboard_check(mk_bind_padd);
+    pleft=pleft||keyboard_check(mk_bind_padl);
+    pright=pright||keyboard_check(mk_bind_padr);
     
     if (abs(ls_x)&lt;0.1)
         ls_x=0;

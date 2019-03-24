@@ -1111,11 +1111,11 @@ if (status_id==READY){
     d3d_start()
     var uniform_alpha=shader_get_uniform(shd_alpha, "alpha");
     var td_start=get_timer();
-    if (keyboard_check_direct(vk_block)){
+    if (keyboard_check(vk_block)){
         draw_mode=Misc.block;
-    } else if (keyboard_check_direct(vk_model_and_wireframe)){
+    } else if (keyboard_check(vk_model_and_wireframe)){
         draw_mode=Misc.model_and_wireframe;
-    } else if (keyboard_check_direct(vk_wireframe)){
+    } else if (keyboard_check(vk_wireframe)){
         draw_mode=Misc.wireframe;
     } else {
         draw_mode=Misc.model;
